@@ -36,6 +36,10 @@ export default class BancoMongoDB implements FilmeRepositorioInterface{
         }
         
     }
+    public async listar(): Promise<Filme[]> {
+        const filmes = await this.filmeModel.find({})
+        return filmes
+    }
     public desconectar(): void {
         mongoose.disconnect()
     }
