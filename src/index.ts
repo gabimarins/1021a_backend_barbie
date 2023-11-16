@@ -50,19 +50,10 @@ app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 619a19314769057bf3d5eff6f3a297be44fff60e
 type Filme = {
     id: number,
     titulo: string,
     descricao: string,
     foto: string,
 }
-<<<<<<< HEAD
 let filmes_repositorio:Filme[] = []
-=======
-let filmes_repositorio:Filme[] = []
-
->>>>>>> 619a19314769057bf3d5eff6f3a297be44fff60e
